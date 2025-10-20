@@ -23,7 +23,8 @@ body {
   color: var(--foreground);
   font-family: var(--font-montserrat), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
   font-weight: 500;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   height: 100vh;
 }
 

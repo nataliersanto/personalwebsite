@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
 
@@ -5,7 +7,7 @@ export default function Home() {
     // justify-center = centers items horizontally
     // h-screen = makes height the full screen
     // px-6 = padding on left and right sides
-    <div className="flex items-center justify-center h-screen overflow-hidden px-6 bg-gray-50 dark:bg-gray-900">
+    <div className="flex items-center justify-center min-h-screen px-6 bg-gray-50 dark:bg-gray-900">
       
       {/* CONTENT WRAPPER - limits how wide content can get */}
       {/* max-w-2xl = maximum width */}
@@ -33,16 +35,16 @@ export default function Home() {
             {/* rounded-full = makes the square into a circle */}
             {/* overflow-hidden = clips anything outside the circle */}
             {/* shadow-2xl = shadow behind the circle */}
-            {/* hover:scale-105 = grows when you hover */}
-            {/* transition-transform duration-300 = smooth 0.3s animation */}
-            {/* cursor-pointer = shows hand cursor when hovering */}            <div className="w-80 h-80 rounded-full border-4 border-violet-400 overflow-hidden bg-violet-50 shadow-2xl hover:scale-105 transition-transform duration-300 cursor-pointer">
+            {/* relative = needed for the Image component to position correctly */}
+            <div className="relative w-80 h-80 rounded-full border-4 border-violet-400 overflow-hidden bg-violet-50 shadow-2xl">
               
-
-              <div className="w-full h-full flex items-center justify-center">
-
-                <span className="text-8xl font-bold text-violet-600">NS</span>
-              </div>
-
+              <Image 
+                src="/IMG_2309.jpg" 
+                alt="profile picture"
+                fill
+                className="object-cover"
+                priority
+              />
               
             </div>
           </div>

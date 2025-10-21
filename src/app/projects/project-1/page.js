@@ -4,14 +4,11 @@ export default function Project1() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
       
-
       <h1 className="text-5xl font-bold text-gray-900 dark:text-gray-100 text-center mb-8">
         SafeNote: Secure Cloud Notes
       </h1>
       
-  
       <div className="flex justify-center mb-8">
-
         <a 
           href="https://github.com/nataliersanto/safe-note" 
           target="_blank" 
@@ -20,23 +17,18 @@ export default function Project1() {
         >
           <span>📎</span> Repository
         </a>
-        
       </div>
       
       <div className="w-full max-w-4xl mx-auto mb-12">
-
         <p className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-relaxed text-center">
           SafeNote is a secure cloud-based note-taking application designed to demonstrate modern security practices in application and cloud architecture. Users can register, log in, and store notes that are encrypted end-to-end, with all data safely persisted in the cloud. The project also incorporates basic intrusion detection and network monitoring, providing hands-on experience with cybersecurity tools and secure deployment practices.
         </p>
       </div>
-
-      {/* mb-12 = space below the list */}      <div className="w-full max-w-4xl mx-auto mb-12">
-
+      
+      <div className="w-full max-w-4xl mx-auto mb-12">
         <ul className="space-y-4 text-left">
-          
           <li className="flex items-start">
             <span className="mr-3 text-violet-600 text-xl font-bold">•</span>
-            {/* The text */}
             <span className="text-lg text-gray-900 dark:text-gray-100">
               Built with Python Flask, JWT authentication, and AES-256 encryption
             </span>
@@ -62,21 +54,16 @@ export default function Project1() {
               Local development includes environment variable management and password hashing for secure practices
             </span>
           </li>
-          
         </ul>
       </div>
       
-
       <div className="w-full max-w-5xl mx-auto mb-12">
-        
         <div className="space-y-8">
           
-
           <div>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
               Example CURL Requests
             </h3>
-            {/* The image */}
             <div className="border-2 border-violet-300 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/CURL example - Edited.png"
@@ -104,7 +91,6 @@ export default function Project1() {
           </div>
           
         </div>
-        
       </div>
       
     </div>

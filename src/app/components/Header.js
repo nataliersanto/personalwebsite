@@ -6,16 +6,12 @@ import { useState } from 'react';
 
 export default function Header() {
   const pathname = usePathname();
-  
-  // This keeps track of whether the dropdown is open or closed
-  // false = closed, true = open
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const isActive = (path) => {
     return pathname === path;
   };
   
-  // Check if we're on any project page
   const isProjectActive = pathname.startsWith('/projects');
 
   return (
@@ -43,9 +39,7 @@ export default function Header() {
             </Link>
           </li>
           
-          {/* PROJECTS DROPDOWN */}
           <li className="relative inline-block">
-            {/* Projects button - clicking toggles the dropdown */}
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className={`text-base font-semibold transition-colors hover:text-violet-500 inline-block ${
@@ -55,10 +49,8 @@ export default function Header() {
               Projects ▾
             </button>
             
-            {/* Dropdown menu - only shows when isDropdownOpen is true */}
             {isDropdownOpen && (
               <div className="absolute top-full left-0 mt-2 bg-gray-50 dark:bg-gray-900 rounded-lg border-2 border-violet-300 min-w-[150px]">
-                {/* SafeNote link */}
                 <Link
                   href="/projects/project-1"
                   onClick={() => setIsDropdownOpen(false)}
@@ -69,7 +61,6 @@ export default function Header() {
                   SafeNote
                 </Link>
                 
-                {/* ZoneIQ link */}
                 <Link
                   href="/projects/project-2"
                   onClick={() => setIsDropdownOpen(false)}

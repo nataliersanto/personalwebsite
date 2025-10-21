@@ -22,7 +22,7 @@ export default function Project2() {
           controls 
           className="w-full rounded-lg border-2 border-violet-300 shadow-lg"
         >
-          <source src="/ZONEIQ demo.mov" type="video/quicktime" />
+          <source src="/zone%20iq%20final%20demo.mov" type="video/quicktime" />
           Your browser does not support the video tag.
         </video>
       </div>

@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-6">
           
           <h1 className="text-7xl font-bold text-gray-900 dark:text-gray-100 text-center hover:scale-105 transition-transform duration-300 cursor-default">
-            Hi, I'm Natalie!
+            Hi, I&apos;m Natalie!
           </h1>
           
           <div className="flex-shrink-0">
@@ -26,7 +26,7 @@ export default function Home() {
 
           <div className="w-full hover:scale-105 transition-transform duration-300 cursor-default">
             <p className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-relaxed text-center">
-              I'm a junior at Florida State University studying Computer Science with minors in Math and Criminology. I have hands-on experience as a full-stack software engineering intern and a strong interest in cybersecurity. Check out my projects that highlight my skills in software development and security systems!
+              I&apos;m a junior at Florida State University studying Computer Science with minors in Math and Criminology. I have hands-on experience as a full-stack software engineering intern and a strong interest in cybersecurity. Check out my projects that highlight my skills in software development and security systems!
             </p>
           </div>
 

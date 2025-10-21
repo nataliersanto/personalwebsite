@@ -52,7 +52,7 @@ export default function Home() {
           <div className="w-full hover:scale-105 transition-transform duration-300 cursor-default">
 
             <p className="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-relaxed text-center">
-              I'm a junior Computer Science student at Florida State University with minors in Math and Criminology. I have hands-on experience as a full-stack software engineering intern and a strong interest in cybersecurity. Check out my projects that highlight my skills in software development and security systems!
+              I'm a junior at Florida State University studying Computer Science with minors in Math and Criminology. I have hands-on experience as a full-stack software engineering intern and a strong interest in cybersecurity. Check out my projects that highlight my skills in software development and security systems!
             </p>
           </div>
 

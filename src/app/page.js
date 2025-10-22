@@ -14,13 +14,14 @@ export default function Home() {
           
           <div className="flex-shrink-0">
             <div className="relative w-80 h-80 rounded-full border-4 border-violet-400 overflow-hidden bg-violet-50 shadow-2xl">
-              <Image 
-                src="/IMG_2309.jpg" 
-                alt="profile picture"
-                fill
-                className="object-cover"
-                priority
-              />
+                  <Image 
+                    src="/nataliesantopic.jpg" 
+                    alt="profile picture"
+                    fill
+                    className="object-cover object-center"
+                    style={{ objectPosition: 'center 30%' }}
+                    priority
+                  />
             </div>
           </div>
 
